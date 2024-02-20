@@ -14,6 +14,7 @@ void initTempHumiditySensor()
     dht.begin();
 }
 
+
 // Return temperature in celsius
 float getTemperature()
 {
